@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Maison Neue';
+  font-weight: 400;
+  src: url('../fonts/MaisonNeueTRIAL-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Maison Neue';
+  font-weight: 700;
+  src: url('../fonts/MaisonNeueTRIAL-Bold.woff2') format('woff2');
+}
+
+body {
+  margin: 0;
+  font-family: 'Maison Neue', 'Helvetica Neue', 'Arial', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
