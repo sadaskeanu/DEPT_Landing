@@ -1,0 +1,38 @@
+.wrap {
+  position: relative;
+  width: 100%;
+  height: 484.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 24px 24px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0));
+}
+
+.head {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.textWrap {
+  max-width: 579px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  object-fit: cover;
+}
