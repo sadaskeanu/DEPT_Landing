@@ -9,6 +9,7 @@ import ClientNote from './components/ClientNote/ClientNote'
 import ClientQuote from './components/ClientQuote/ClientQuote'
 import ClientList from './components/ClientList/ClientList'
 import Form from './components/Form/Form'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
 
       <ClientList />
       <Form />
+      <Footer />
     </div>
   )
 }

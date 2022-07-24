@@ -1,0 +1,50 @@
+.wrap {
+  background-color: #000;
+  color: #fff;
+  padding: 45px 36px;
+}
+
+.navigarion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  margin-bottom: 48px;
+  font-size: 18px;
+}
+
+.item:last-child {
+  margin-bottom: 83px;
+}
+
+.social {
+  margin-bottom: 40px;
+}
+
+.social:last-child {
+  margin-bottom: 0px;
+}
+
+.line {
+  border-bottom: 1px solid #3e3e3e;
+  margin-bottom: 45px;
+}
+
+.terms {
+  font-size: 13px;
+  color: #808080;
+  width: 201px;
+  margin-bottom: 25px;
+}
+
+.copyright {
+  font-size: 13px;
+  color: #808080;
+}
