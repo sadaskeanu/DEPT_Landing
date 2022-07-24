@@ -48,14 +48,14 @@ let content = [
     type: 'note',
     clients: [
       {
-        brand: 'O’NEILL',
-        quote:
-          'Integrating existing content into O’Neills’s new e-commerce platform'
-      },
-      {
         brand: 'MICROSOFT',
         quote:
           'Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels'
+      },
+      {
+        brand: 'O’NEILL',
+        quote:
+          'Integrating existing content into O’Neills’s new e-commerce platform'
       }
     ]
   },
@@ -82,14 +82,14 @@ let content = [
     type: 'note',
     clients: [
       {
-        brand: 'O’NEILL',
-        quote:
-          'Integrating existing content into O’Neills’s new e-commerce platform'
-      },
-      {
         brand: 'MICROSOFT',
         quote:
           'Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels'
+      },
+      {
+        brand: 'O’NEILL',
+        quote:
+          'Integrating existing content into O’Neills’s new e-commerce platform'
       }
     ]
   },
@@ -118,6 +118,14 @@ let content = [
     title: 'The search of the most influential book ever',
     coverUrl: bibliotheekCover,
     type: 'client'
+  },
+  {
+    type: 'quote',
+    clientquote: {
+      quote:
+        '“Dept helped us tell our story through a bold new identity and a robust online experience. To the tone of 60% growth in online bookings in just one month”',
+      name: 'MATTIJS TEN DRINK - CEO, TRANSAVIA'
+    }
   },
   {
     brand: 'LIBERTY GLOBAL',

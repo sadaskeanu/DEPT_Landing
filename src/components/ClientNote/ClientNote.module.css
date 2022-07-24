@@ -1,4 +1,22 @@
 .wrap {
   background-color: #000;
   color: #fff;
+  padding: 24px;
+}
+
+.brandname {
+  font-size: 16px;
+  line-height: 18.5px;
+  margin-bottom: 12px;
+}
+
+.brandquote {
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 36px;
+}
+
+.line {
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 32px;
 }

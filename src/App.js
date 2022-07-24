@@ -6,6 +6,7 @@ import content from './content/content'
 import Header from './components/Header/Header'
 import Filter from './components/Filter/Filter'
 import ClientNote from './components/ClientNote/ClientNote'
+import ClientQuote from './components/ClientQuote/ClientQuote'
 import { type } from '@testing-library/user-event/dist/type'
 
 function App() {
@@ -38,6 +39,10 @@ function App() {
         }
         if (client.type === 'note') {
           return <ClientNote clients={client.clients} />
+        }
+
+        if (client.type === 'quote') {
+          return <ClientQuote quote={client.clientquote} />
         }
 
         return null
