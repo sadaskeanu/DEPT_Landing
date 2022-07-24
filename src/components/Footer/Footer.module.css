@@ -4,7 +4,7 @@
   padding: 45px 36px;
 }
 
-.navigarion {
+.navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -47,4 +47,49 @@
 .copyright {
   font-size: 13px;
   color: #808080;
+}
+
+.logoDesktop {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .logoDesktop {
+    display: block;
+    color: white;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .item {
+    margin-right: 20px;
+    font-size: 18px;
+  }
+
+  .item:last-child {
+    margin-right: 0;
+  }
+
+  .termsWrap {
+    display: flex;
+  }
+
+  .terms {
+    margin-right: 36px;
+  }
+
+  .terms:last-child {
+    margin-right: 0;
+  }
+
+  .copyright {
+    margin-left: 392px;
+  }
+
+  .social {
+    display: none;
+  }
 }

@@ -14,6 +14,7 @@ function ClientList() {
         {logos.map(brand => (
           <li key={brand.brand}>
             <img
+              className={styles.logoDesktop}
               width="114.29px"
               height="60px"
               src={brand.logoUrl}

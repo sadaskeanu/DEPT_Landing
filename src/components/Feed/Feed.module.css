@@ -1,0 +1,27 @@
+@media (min-width: 1024px) {
+  .wrap {
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .card {
+    grid-column: span 3;
+  }
+
+  .card.isLarge {
+    grid-column: 1 / 5;
+  }
+
+  .card.isLarge.isReversed {
+    grid-column: 3 / 7;
+  }
+
+  .quote {
+    grid-column: span 6;
+  }
+
+  .note {
+    grid-column: span 2;
+  }
+}

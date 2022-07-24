@@ -14,3 +14,15 @@
 .link {
   color: #ffff;
 }
+
+@media (min-width: 1024px) {
+  .wrap {
+    background-color: #ffff;
+    padding: 32px;
+    font-size: 26px;
+  }
+
+  .link {
+    color: rgba(14, 14, 14, 1);
+  }
+}

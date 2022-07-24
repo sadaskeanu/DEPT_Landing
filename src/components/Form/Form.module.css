@@ -38,7 +38,38 @@
 .button {
   border: 1px solid rgba(81, 21, 247, 1);
   padding: 16px;
+  line-height: 18px;
   border-radius: 50px;
   color: rgba(81, 21, 247, 1);
   font-size: 18px;
+}
+
+@media (min-width: 1024px) {
+  .wrap {
+    display: flex;
+    flex-direction: row;
+    padding: 58px;
+  }
+
+  .title {
+    font-size: 48px;
+    max-width: 305px;
+    margin-right: 64px;
+    line-height: 96px;
+  }
+
+  .form {
+    display: grid;
+    width: 100%;
+    max-width: 628px;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 38px;
+  }
+
+  .button {
+    grid-column: 1/2;
+    max-width: 175px;
+    border: 1px solid rgba(18, 18, 18, 1);
+    color: #000;
+  }
 }

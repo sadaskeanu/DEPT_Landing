@@ -56,6 +56,11 @@ let content = [
         brand: 'O’NEILL',
         quote:
           'Integrating existing content into O’Neills’s new e-commerce platform'
+      },
+      {
+        brand: 'MICROSOFT',
+        quote:
+          'Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels'
       }
     ]
   },
@@ -76,7 +81,8 @@ let content = [
     brand: 'FLORENSIS',
     title: 'Rethinking the entire online ecosystem',
     coverUrl: florensisdragonCover,
-    type: 'client'
+    type: 'client',
+    isReversed: true
   },
   {
     type: 'note',
@@ -90,6 +96,11 @@ let content = [
         brand: 'O’NEILL',
         quote:
           'Integrating existing content into O’Neills’s new e-commerce platform'
+      },
+      {
+        brand: 'MICROSOFT',
+        quote:
+          'Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels'
       }
     ]
   },

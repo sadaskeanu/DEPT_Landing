@@ -1,7 +1,8 @@
 .wrap {
   position: relative;
   width: 100%;
-  height: 484.5px;
+  min-height: 484.5px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -32,4 +33,10 @@
   top: 0;
   z-index: -1;
   object-fit: cover;
+}
+
+@media (min-width: 1024px) {
+  .wrap {
+    min-height: 568px;
+  }
 }

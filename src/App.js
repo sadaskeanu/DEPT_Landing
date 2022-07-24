@@ -1,15 +1,12 @@
 import HeroSection from './components/HeroSection/HeroSection'
 import background_img_11 from './components/HeroSection/img/background_img_11.jpg'
-import ClientCard from './components/ClientCard/ClientCard'
 import React from 'react'
-import content from './content/content'
 import Header from './components/Header/Header'
 import Filter from './components/Filter/Filter'
-import ClientNote from './components/ClientNote/ClientNote'
-import ClientQuote from './components/ClientQuote/ClientQuote'
 import ClientList from './components/ClientList/ClientList'
 import Form from './components/Form/Form'
 import Footer from './components/Footer/Footer'
+import Feed from './components/Feed/Feed'
 
 function App() {
   return (
@@ -27,29 +24,7 @@ function App() {
       />
 
       <Filter />
-
-      {content.map(client => {
-        if (client.type === 'client') {
-          return (
-            <ClientCard
-              key={client.brand}
-              brand={client.brand}
-              title={client.title}
-              coverUrl={client.coverUrl}
-            />
-          )
-        }
-        if (client.type === 'note') {
-          return <ClientNote clients={client.clients} />
-        }
-
-        if (client.type === 'quote') {
-          return <ClientQuote quote={client.clientquote} />
-        }
-
-        return null
-      })}
-
+      <Feed />
       <ClientList />
       <Form />
       <Footer />

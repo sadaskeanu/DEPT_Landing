@@ -32,3 +32,10 @@
   z-index: -1;
   object-fit: cover;
 }
+
+@media (min-width: 1024px) {
+  .wrap {
+    height: 628px;
+    padding: 328px 805px 84px 52px;
+  }
+}

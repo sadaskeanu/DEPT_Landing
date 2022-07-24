@@ -23,3 +23,30 @@
   row-gap: 83px;
   grid-column-gap: 180px;
 }
+
+@media (min-width: 1024px) {
+  .wrap {
+    padding: 92px 43px;
+  }
+
+  .title {
+    font-size: 34px;
+  }
+
+  .text {
+    line-height: 36px;
+  }
+
+  .wrapGrid {
+    display: grid;
+    grid-template-columns: repeat(3, min-content);
+    row-gap: 83px;
+    grid-column-gap: 238px;
+    justify-content: center;
+  }
+
+  .logoDesktop {
+    width: 171.43px;
+    height: 90px;
+  }
+}

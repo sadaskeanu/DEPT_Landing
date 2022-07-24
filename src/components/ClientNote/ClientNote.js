@@ -5,7 +5,7 @@ function ClientNote({ clients }) {
     <div className={styles.wrap}>
       <ul>
         {clients.map(client => (
-          <li key={client.brand}>
+          <li className={styles.list} key={client.brand}>
             <p className={styles.brandname}>{client.brand}</p>
             <p className={styles.brandquote}>{client.quote}</p>
             <div className={styles.line}></div>
