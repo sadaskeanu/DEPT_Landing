@@ -4,9 +4,9 @@ function HeroSection(props) {
   return (
     <div className={styles.wrap}>
       <p className={styles.head}>{props.head}</p>
-      <div className={styles.textWrap}>
-        <p className={styles.text}>{props.case}</p>
-      </div>
+
+      <h1 className={styles.title}>{props.case}</h1>
+
       <img className={styles.img} src={props.img} alt="background" />
     </div>
   )

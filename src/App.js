@@ -7,7 +7,7 @@ import Header from './components/Header/Header'
 import Filter from './components/Filter/Filter'
 import ClientNote from './components/ClientNote/ClientNote'
 import ClientQuote from './components/ClientQuote/ClientQuote'
-import { type } from '@testing-library/user-event/dist/type'
+import ClientList from './components/ClientList/ClientList'
 
 function App() {
   return (
@@ -47,6 +47,8 @@ function App() {
 
         return null
       })}
+
+      <ClientList />
     </div>
   )
 }

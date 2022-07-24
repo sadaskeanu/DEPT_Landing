@@ -16,11 +16,8 @@
   color: #ffffff;
 }
 
-.textWrap {
+.title {
   max-width: 579px;
-}
-
-.text {
   font-weight: 400;
   font-size: 26px;
   line-height: 26px;

@@ -10,14 +10,12 @@ const propTypes = {
 
 function ClientCard({ brand, title, coverUrl }) {
   return (
-    <div>
-      <div className={styles.wrap}>
-        <p className={styles.head}>{brand}</p>
-        <div className={styles.textWrap}>
-          <p className={styles.text}>{title}</p>
-        </div>
-        <img className={styles.img} src={coverUrl} alt="background" />
-      </div>
+    <div className={styles.wrap}>
+      <p className={styles.head}>{brand}</p>
+
+      <h3 className={styles.title}>{title}</h3>
+
+      <img className={styles.img} src={coverUrl} alt="background" />
     </div>
   )
 }
