@@ -18,6 +18,11 @@
 .item {
   margin-bottom: 48px;
   font-size: 18px;
+  cursor: pointer;
+}
+
+.item:hover {
+  color: rgba(221, 221, 221, 1);
 }
 
 .item:last-child {

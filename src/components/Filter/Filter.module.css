@@ -25,4 +25,8 @@
   .link {
     color: rgba(14, 14, 14, 1);
   }
+
+  .link:hover {
+    color: rgba(221, 221, 221, 1);
+  }
 }

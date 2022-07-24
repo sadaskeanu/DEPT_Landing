@@ -48,6 +48,11 @@
 
   .navLink {
     margin-right: 48px;
+    cursor: pointer;
+  }
+
+  .navLink:hover {
+    color: rgba(221, 221, 221, 1);
   }
 
   .navLink:last-child {
