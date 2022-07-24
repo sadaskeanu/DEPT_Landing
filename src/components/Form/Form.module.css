@@ -1,0 +1,44 @@
+.wrap {
+  padding: 48px 36px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 26px;
+  margin-bottom: 38px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.dataTitle {
+  font-size: 16px;
+}
+
+.input {
+  display: flex;
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 38px;
+}
+
+.textarea {
+  display: flex;
+  border: none;
+  width: 100%;
+  height: 102px;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 38px;
+}
+
+.button {
+  border: 1px solid rgba(81, 21, 247, 1);
+  padding: 16px;
+  border-radius: 50px;
+  color: rgba(81, 21, 247, 1);
+  font-size: 18px;
+}
