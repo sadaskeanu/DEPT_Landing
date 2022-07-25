@@ -1,5 +1,5 @@
-import styles from './ClientList.module.css'
 import logos from './logos'
+import styles from './ClientList.module.css'
 
 function ClientList() {
   return (

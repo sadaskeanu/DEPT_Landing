@@ -74,6 +74,6 @@
   }
 
   .button:hover {
-    background-color: rgba(221, 221, 221, 1);
+    background-color: rgba(128, 0, 128, 0.05);
   }
 }

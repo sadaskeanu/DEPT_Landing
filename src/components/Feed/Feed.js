@@ -42,7 +42,10 @@ function Feed() {
         if (item.type === 'quote') {
           return (
             <div key={`${item.type}-${index}`} className={styles.quote}>
-              <ClientQuote quote={item.clientquote} />
+              <ClientQuote
+                quote={item.clientquote.quote}
+                name={item.clientquote.name}
+              />
             </div>
           )
         }

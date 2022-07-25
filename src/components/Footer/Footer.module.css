@@ -37,6 +37,10 @@
   margin-bottom: 0px;
 }
 
+.socialLink {
+  display: block;
+}
+
 .line {
   border-bottom: 1px solid #3e3e3e;
   margin-bottom: 45px;

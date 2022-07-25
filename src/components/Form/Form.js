@@ -4,7 +4,7 @@ function Form() {
   return (
     <div className={styles.wrap}>
       <h2 className={styles.title}>QUESTION? WE ARE HERE TO HELP!</h2>
-      <form className={styles.form}>
+      <form className={styles.form} id="contact">
         <label>
           <p className={styles.dataTitle}>NAME</p>
           <input className={styles.input}></input>

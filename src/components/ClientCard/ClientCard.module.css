@@ -10,6 +10,11 @@
   background: linear-gradient(to top, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0));
 }
 
+.wrap:hover {
+  opacity: 0.9;
+  transition: opacity 200ms;
+}
+
 .head {
   margin-bottom: 16px;
   font-size: 16px;
